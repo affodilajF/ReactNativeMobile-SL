@@ -2,7 +2,7 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
@@ -77,3 +77,80 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+# ------------------------------------------
+
+# ------------------------------------------
+
+- npm => we need to install the package (the react native package) in local computer before make a project.
+  When you use npm install <package-name>, it installs the package in the node_modules directory of your project.
+
+- npx => the package is online linked.
+  When you use npx <package-name>, it looks for the package in the npm registry and runs it without having to install it globally or locally.
+
+# Create New Project
+
+- create new project
+
+```
+npx react-native init appName
+```
+
+- add yarn (inside file directory project)
+
+```
+yarn init -y
+
+yarn add react-native
+```
+
+- run emulator
+
+```
+npx react-native start --port=808x
+```
+
+```
+npx react-native run-android
+```
+
+# Project Structure
+
+#### App.tsx
+
+Initial rendered.
+
+#### app.json
+
+Project config.
+
+#### index.js
+
+Project app register.
+
+#### eslint
+
+Error msg.
+
+#### package.json
+
+- dependencies => prod.
+- devDependencies => dev.
+
+#### node_modules
+
+Kumpulan dari package yg digunakan.
+
+#### ios android
+
+Native project.
+
+#### gitignore
+
+Mengecualikan file ke git.
+
+# VSCODE Extension
+
+#### ES7+ React/Redux/React-Native snippets
+
+Membuat snippets/boilerplate.
