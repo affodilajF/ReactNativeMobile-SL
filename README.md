@@ -61,7 +61,7 @@ kalo gapake "default" manggilnya pake {}, but ini partice yg kurang tepat.
 
 ![image](https://github.com/affodilajF/ReactNativeMobile-SL/assets/130672181/868b338e-1e6d-47cf-b990-4c4b4777ba21)
 
-# BASIC LAYOUING REACT NATIVE (FLEXBOX) 
+# BASIC LAYOUING REACT NATIVE (FLEXBOX)  HEMMMM INTUITIF SAJA DICOBA LANGSUNG
 Check file MateriFlexbox.js ajaa. 
 
 #### flex 
