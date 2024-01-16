@@ -9,7 +9,7 @@
  */
 
 import React, {Component} from 'react';
-import {View} from 'react-native';
+import {View, Text, TextInput, Image} from 'react-native';
 
 const customStyle = {width: 200, height: 200};
 
@@ -55,7 +55,12 @@ class BoxGreen extends Component {
 }
 
 class BoxWhite extends Component {
+  // constructor(props) {
+  //   super(props);
+  //   console.log('Ini constructor');
+  // }
   render() {
+    console.log('HMZ');
     return (
       <View>
         <Text> This is BoxWhite </Text>
@@ -75,3 +80,4 @@ class BoxRed extends Component {
     return <AnotherCompImg />;
   }
 }
+export default BoxWhite;

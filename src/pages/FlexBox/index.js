@@ -20,7 +20,11 @@ class FlexBox extends Component {
   render() {
     return (
       <View
-        style={{height: 400, flexDirection: 'row', justifyContent: 'center'}}>
+        style={{
+          flexDirection: 'row',
+          justifyContent: 'flex-start',
+          alignItems: 'flex-end',
+        }}>
         <View style={{backgroundColor: 'purple', height: 50, width: 50}} />
         <View style={{backgroundColor: 'pink', height: 60, width: 50}} />
         <View style={{backgroundColor: 'orange', height: 80, width: 50}} />

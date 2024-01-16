@@ -23,7 +23,7 @@ const MacbookCard = () => {
       </Text>
       <Text style={{fontSize: 18, paddingTop: 5, color: 'orange'}}>
         {' '}
-        Rp. 250000{' '}
+        Rp. 25000{' '}
       </Text>
       <Text style={{fontSize: 12, paddingTop: 5}}> Jakarta Pusat </Text>
       <View
