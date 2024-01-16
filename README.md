@@ -103,6 +103,15 @@ position : 'relative' =>
 By default, library by js (react for instance) will be looking for the file named "index".
 
 # Class Cimponent lifecycle 
+Library => ReactNative debugger / browser localhost:8081/debugger-ui/
+### Class Component
+1. Muncul
+   Yang pertama dipanggil adalah constructor.  
+3. Berubah
+4. Hilang
+![image](https://github.com/affodilajF/ReactNativeMobile-SL/assets/130672181/1eb9d601-5f77-43c6-bc63-58eae5a97a79)
+
+### Functional COmponent
 
 # Functional Component (hooks) lifecycle 
 
