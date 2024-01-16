@@ -95,6 +95,20 @@ flex-direction : column
 
 
 # KONSEP POSITION COMPONENT
+position : 'absolute' => posisi bebas bergerak di app kita dimanapun.
+
+position : 'relative' => 
+
+# Structuring Great Project 
+By default, library by js (react for instance) will be looking for the file named "index".
+
+# Class Cimponent lifecycle 
+
+# Functional Component (hooks) lifecycle 
+
+# Dynamic component with props 
+
+$
 
 
 
