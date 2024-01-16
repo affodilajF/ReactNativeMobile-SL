@@ -105,15 +105,37 @@ By default, library by js (react for instance) will be looking for the file name
 # Class Cimponent lifecycle 
 Library => ReactNative debugger / browser localhost:8081/debugger-ui/
 ### Class Component
-1. Muncul
-   Yang pertama dipanggil adalah constructor.  
-3. Berubah
-4. Hilang
+1. Komponen Muncul => Urutannya constructor, render, componentDidMount.
+2. Berubah (updating) => Render, componentDidUpdate.
+3. Hilang => componentWillUnmount.
+
+* Function yang sering di pakai bergaris tebal/
 ![image](https://github.com/affodilajF/ReactNativeMobile-SL/assets/130672181/1eb9d601-5f77-43c6-bc63-58eae5a97a79)
 
-### Functional COmponent
+ ![image](https://github.com/affodilajF/ReactNativeMobile-SL/assets/130672181/b85055b0-6449-4143-9cd9-e0e2ae55c70c)
 
-# Functional Component (hooks) lifecycle 
+### Functional Component (Hooks)
+Theres no render method.
+
+Semua lifecycle dibungkus didalam satu method. Named useEffect. 
+
+UseEffect can handle :
+- Komponen muncul
+  
+  ![image](https://github.com/affodilajF/ReactNativeMobile-SL/assets/130672181/49f1986d-6f6a-494e-b2ae-9d4fe3a8fadf)
+  
+- Kompnen berubah
+  didUpdate berdiri jadi useEffect sendiri.
+
+  ![image](https://github.com/affodilajF/ReactNativeMobile-SL/assets/130672181/cd96fff7-f31c-4ac5-9cab-e41b94955abb)
+
+  diMount dan didUpdate berada di satu useEffect.
+
+  useEffect ( parameter logika didmount return didupdate/willunmount, parameter perubahan berdasarkan apa)
+  
+  ![image](https://github.com/affodilajF/ReactNativeMobile-SL/assets/130672181/1c92d826-e826-4ae0-8989-f52ce08f431c)
+
+- Komponen hilang
 
 # Dynamic component with props 
 
