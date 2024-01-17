@@ -137,9 +137,18 @@ UseEffect can handle :
 
 - Komponen hilang
 
-# Dynamic component with props 
+# Dynamic component with PROPS
+Can be use in class comp and function comp. 
 
-$
+![image](https://github.com/affodilajF/ReactNativeMobile-SL/assets/130672181/85f914b5-f7ec-4691-bb6b-435f64de0eb7)
+
+![image](https://github.com/affodilajF/ReactNativeMobile-SL/assets/130672181/a4aba2d7-d8dc-4086-8501-a1285d7ebfd0)
+
+
+# Dynamic component with STATE
+Can be use in class comp and function comp. 
+
+![image](https://github.com/affodilajF/ReactNativeMobile-SL/assets/130672181/82df404f-cb33-4321-970f-d2a4d6f62d5e)
 
 
 
