@@ -140,6 +140,21 @@ UseEffect can handle :
 # Dynamic component with PROPS
 Can be use in class comp and function comp. 
 
+"Props" adalah singkatan dari "properties" (properti), dan ini merujuk pada nilai-nilai yang diteruskan dari komponen induk ke komponen anak dalam React. Props memungkinkan Anda mengirimkan data dari satu komponen ke komponen lain sebagai argumen atau konfigurasi.
+
+```javascript
+// Komponen anak (ChildComponent)
+const ChildComponent = (props) => {
+  return <p>{props.message}</p>;
+};
+
+// Komponen induk (ParentComponent)
+const ParentComponent = () => {
+  return <ChildComponent message="Halo dari props!" />;
+};
+
+```
+
 ![image](https://github.com/affodilajF/ReactNativeMobile-SL/assets/130672181/85f914b5-f7ec-4691-bb6b-435f64de0eb7)
 
 ![image](https://github.com/affodilajF/ReactNativeMobile-SL/assets/130672181/a4aba2d7-d8dc-4086-8501-a1285d7ebfd0)
@@ -149,6 +164,11 @@ Can be use in class comp and function comp.
 Can be use in class comp and function comp. 
 
 ![image](https://github.com/affodilajF/ReactNativeMobile-SL/assets/130672181/82df404f-cb33-4321-970f-d2a4d6f62d5e)
+
+# Component Communication 
+Ketika ada 2 komponen terpisah namun valuenya saling terikat. Utilizing props and state. 
+
+# Static and Dynamic APP 
 
 
 
