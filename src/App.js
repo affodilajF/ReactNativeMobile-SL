@@ -13,12 +13,16 @@ import MacbookCard from './pages/MacbookCard';
 import PositionComponent from './pages/PositionComponent';
 import ComponentMaterials from './pages/ComponentMaterials';
 import ComponentLifecycle from './pages/ComponentLifeCycle';
+import DynamicComponentProps from './pages/DynamicComponentsProps';
+import DynamicComponentState from './pages/DynamicComponentState';
 
 const App = () => {
   return (
     <View>
       <ScrollView>
-        <ComponentLifecycle />
+        <DynamicComponentState />
+        {/* <DynamicComponentProps /> */}
+        {/* <ComponentLifecycle /> */}
         {/* <ComponentMaterials />
         <FlexBox />
         <PositionComponent />
